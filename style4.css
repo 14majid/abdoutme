@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    font-family: "Montserrat",arial,sans-serif;
+}
+h1,h2,h3{
+    color: #7D9D9C;
+}
+h3{
+
+    margin: 10px 0;
+}
+h2{
+    margin-bottom: 20px;
+}
+p{
+    line-height: 2;
+}
+
+
+span{
+    text-decoration: underline;
+}
+
+hr{
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 5px;
+    height: 0px;
+    width: 5%;
+    margin: auto;
+}
+
+/************ NAVBAR *************/
+#navsec{
+    padding: 2% 15% 7%;
+    background-color: #A6D1E6;
+    color: #fff;
+}
+
+/************* HEADER *************/
+
+#header{
+    background-color: #A6D1E6;
+    padding: 100px 0px 0px;
+}
+
+h1{
+    font-family: "sacramento",arial,serif;
+    font-size: 4.375rem;
+}
+
+.top-cloud{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    right: 250px;
+    top: 170px;
+}
+.bottom-cloud{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    bottom: 120px;
+    left: 250px;
+}
+.hP{
+    margin: 50px auto 90px auto;
+}
+
+#profile{
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+
+#profile img{
+    height: 200px;
+    width: 200px;
+}
+
+#project{
+    padding: 7% 15%;
+    text-align: center;
+}
+#project li{
+    text-align: left;
+    margin: 0 auto;
+}
+
+
+#hobbies{
+    background-color: #A6D1E6;
+}
+#hobbies h3{
+    padding-top: 20px;
+}
+#hobbies img{
+    padding-bottom: 10px;
+   height: 100px;
+   width: 100px;
+}
+.babadof{
+    padding: 10% 15%;
+}
+
+
+
+#contact{
+     /* background-color: #A6D1E6; */
+    background-color: #fff;
+    padding: 5% 15%;
+}
+#contact i{
+    margin: 10px;
+    color: #000;
+}
+#contact a i:hover{
+    color: #7D9D9C;
+}
+#contact img{
+    height: 70px;
+    width: 70px;
+    padding: 20px;
+}
+
+@media(max-width:1028px){
+
+    .top-cloud{
+        height: 100px;
+        width: 100px;
+        position: relative;
+        left: 90px;
+        top: 20px;
+    }
+
+    .bottom-cloud{
+        height: 100px;
+        width: 100px;
+        position: relative;
+        left: 10px;
+        bottom: 200px;
+    }
+
+    .montain{
+        height: 350px;
+        width: 350px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}
